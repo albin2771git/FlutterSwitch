@@ -347,7 +347,7 @@ class _FlutterSwitchState extends State<FlutterSwitch>
                   padding: EdgeInsets.all(widget.padding),
                   decoration: BoxDecoration(
                     borderRadius: BorderRadius.circular(widget.borderRadius),
-                    color: _switchColor,
+                    color: Colors.green,
                     border: _switchBorder,
                   ),
                   child: Stack(
@@ -359,7 +359,7 @@ class _FlutterSwitchState extends State<FlutterSwitch>
                           width: _textSpace,
                           padding: EdgeInsets.symmetric(horizontal: 4.0),
                           alignment: Alignment.centerLeft,
-                          child: Text("Hello"),
+                          child: _activeText,
                         ),
                       ),
                       Align(
