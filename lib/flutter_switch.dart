@@ -384,7 +384,7 @@ class _FlutterSwitchState extends State<FlutterSwitch>
                             padding: EdgeInsets.all(4.0),
                             decoration: BoxDecoration(
                               shape: BoxShape.circle,
-                              color: _toggleColor,
+                              color: Colors.green,
                               border: _toggleBorder,
                             ),
                             child: FittedBox(
